@@ -1,0 +1,12 @@
+{
+  "dataset": "Adult Income / Census Income",
+  "source_url": "https://archive.ics.uci.edu/dataset/2/adult",
+  "openml_data_id": 1590,
+  "target": "income",
+  "positive_class": ">50K",
+  "device": "cpu",
+  "input_features_after_one_hot_encoding": 105,
+  "best_f1": 0.6910714285714286,
+  "reloaded_model_f1": 0.6910714285714286,
+  "preprocessing": "ColumnTransformer(transformers=[('numeric',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='median')),\n                                                 ('scaler', StandardScaler())]),\n                                 ['age', 'fnlwgt', 'education-num',\n                                  'capital-gain', 'capital-loss',\n                                  'hours-per-week']),\n                                ('categorical',\n                                 Pipeline(steps=[('imputer',\n                                                  SimpleImputer(strategy='most_frequent')),\n                                                 ('encoder',\n                                                  OneHotEncoder(handle_unknown='ignore',\n                                                                sparse_output=False))]),\n                                 ['workclass', 'education', 'marital-status',\n                                  'occupation', 'relationship', 'race', 'sex',\n                                  'native-country'])],\n                  verbose_feature_names_out=False)"
+}

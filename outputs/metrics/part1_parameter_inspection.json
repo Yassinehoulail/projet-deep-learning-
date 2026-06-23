@@ -1,0 +1,66 @@
+{
+  "named_parameters": {
+    "fc1.weight": {
+      "shape": [
+        64,
+        105
+      ],
+      "requires_grad": true
+    },
+    "fc1.bias": {
+      "shape": [
+        64
+      ],
+      "requires_grad": true
+    },
+    "fc2.weight": {
+      "shape": [
+        32,
+        64
+      ],
+      "requires_grad": true
+    },
+    "fc2.bias": {
+      "shape": [
+        32
+      ],
+      "requires_grad": true
+    },
+    "fc3.weight": {
+      "shape": [
+        2,
+        32
+      ],
+      "requires_grad": true
+    },
+    "fc3.bias": {
+      "shape": [
+        2
+      ],
+      "requires_grad": true
+    }
+  },
+  "state_dict_shapes": {
+    "fc1.weight": [
+      64,
+      105
+    ],
+    "fc1.bias": [
+      64
+    ],
+    "fc2.weight": [
+      32,
+      64
+    ],
+    "fc2.bias": [
+      32
+    ],
+    "fc3.weight": [
+      2,
+      32
+    ],
+    "fc3.bias": [
+      2
+    ]
+  }
+}

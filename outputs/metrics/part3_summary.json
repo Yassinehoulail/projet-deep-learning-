@@ -1,0 +1,6 @@
+{
+  "num_pairs": 20,
+  "source_vocab_size": 59,
+  "target_vocab_size": 66,
+  "dataset_note": "Utilise data/fra-eng/fra.txt si disponible, sinon corpus integre de demonstration."
+}

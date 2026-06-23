@@ -1,0 +1,6 @@
+source,reference,greedy,beam_search,bleu_greedy,bleu_beam
+i am a student,je suis un etudiant,je suis un etudiant,je suis un etudiant,1.0,1.0
+i like deep learning,j aime le deep learning,j aime le deep learning,j aime le deep learning,1.0,1.0
+the model is simple,le modele est simple,le modele est simple,le modele est simple,1.0,1.0
+we train a network,nous entrainons un reseau,nous entrainons un reseau,nous entrainons un reseau,1.0,1.0
+the loss decreases,la perte diminue,la perte diminue,la perte diminue,1.0,1.0
